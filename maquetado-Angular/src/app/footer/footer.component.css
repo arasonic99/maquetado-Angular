@@ -1,0 +1,10 @@
+footer, .copyright {
+    background-color: rgb(85, 186, 253);
+    height: 30px;
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+    position: fixed;
+    color: #fff;
+    bottom: 0;
+}

@@ -1,0 +1,46 @@
+.navbar.navbar-expand-lg.bg-dark{
+    background: rgb(240,230,237);
+    background: linear-gradient(360deg, rgb(85, 186, 253) 15%, rgba(157,211,247,1) 85%);
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+}
+
+i.fa-solid.fa-user.fa-lg{
+    color: rgb(255, 255, 255);
+}
+i.fa-solid.fa-user.fa-lg:hover{
+    color: rgb(57, 176, 247);
+}
+
+.admin {
+    font-size: 1rem;
+}
+
+nav.vertical {
+    float: left;
+}
+
+li.vertical {
+    display: block;
+    margin: 5px;
+    writing-mode: vertical;
+    padding: 1rem 0;
+    margin-top: 10rem;
+    margin-left: -1.5rem;
+    font-size: 1rem;
+    color: rgb(57, 176, 247);
+}
+
+li.vertical:hover {
+    color: rgb(140, 215, 255);
+}
+
+.col-11 {
+    display: block;
+    margin: 0;
+    padding: 1rem 0;
+    margin-top: 6.5rem;
+}

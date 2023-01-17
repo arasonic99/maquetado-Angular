@@ -1,0 +1,64 @@
+.navbar.navbar-expand-lg.bg-dark{
+    background: rgb(240,230,237);
+    background: linear-gradient(360deg, rgb(85, 186, 253) 15%, rgba(157,211,247,1) 85%);
+}
+
+i.fa-brands.fa-linkedin.fa-xl{
+    color: rgb(255, 255, 255);
+}
+i.fa-brands.fa-github.fa-xl{
+    color: rgb(255, 255, 255);
+}
+i.fa-brands.fa-instagram.fa-xl{
+    color: rgb(255, 255, 255);
+}
+i.fa-brands.fa-linkedin.fa-xl:hover{
+    color: rgb(57, 176, 247);
+}
+i.fa-brands.fa-github.fa-xl:hover{
+    color: rgb(57, 176, 247);
+}
+i.fa-brands.fa-instagram.fa-xl:hover{
+    color: rgb(57, 176, 247);
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+}
+
+i.fa-solid.fa-user.fa-lg{
+    color: rgb(255, 255, 255);
+}
+i.fa-solid.fa-user.fa-lg:hover{
+    color: rgb(57, 176, 247);
+}
+
+.form-control:focus{
+    border-color: rgb(90, 190, 255);
+    box-shadow: 0 0 0 0.25rem rgb(157, 211, 247);
+}
+
+.form-check-input:checked{
+    background-color: rgb(157, 211, 247);
+    border-color: rgb(90, 190, 255);
+    box-shadow: 0 0 0 0.25rem rgb(157, 211, 247);
+}
+.form-check-input:focus{
+    border-color: rgb(90, 190, 255);
+    box-shadow: rgb(150, 211, 247);
+}
+
+.btn btn-primary:focus{
+    border-color: rgb(90, 190, 255);
+    box-shadow: rgb(150, 211, 247);
+}
+
+.login {
+    height: 100vh;
+}
+
+.formulario-login {
+    margin-top: 23%;
+}
+
