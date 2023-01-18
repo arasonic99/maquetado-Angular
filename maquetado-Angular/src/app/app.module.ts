@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -23,8 +23,6 @@ import { EducPanelComponent } from './panel/educ-panel/educ-panel.component';
 import { ExpPanelComponent } from './panel/exp-panel/exp-panel.component';
 import { SkillsPanelComponent } from './panel/skills-panel/skills-panel.component';
 import { ProyecPanelComponent } from './panel/proyec-panel/proyec-panel.component';
-import { MenuPanelComponent } from './panel/menu-panel/menu-panel.component';
-import { TabcontPanelComponent } from './panel/tabcont-panel/tabcont-panel.component';
 
 @NgModule({
   declarations: [
@@ -49,8 +47,6 @@ import { TabcontPanelComponent } from './panel/tabcont-panel/tabcont-panel.compo
     ExpPanelComponent,
     SkillsPanelComponent,
     ProyecPanelComponent,
-    MenuPanelComponent,
-    TabcontPanelComponent
   ],
   imports: [
     BrowserModule,
@@ -58,6 +54,6 @@ import { TabcontPanelComponent } from './panel/tabcont-panel/tabcont-panel.compo
   ],
   providers: [],
   bootstrap: [AppComponent],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
