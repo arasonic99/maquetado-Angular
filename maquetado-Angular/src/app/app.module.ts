@@ -40,13 +40,6 @@ import { ProyecPanelComponent } from './panel/proyec-panel/proyec-panel.componen
     SkillsComponent,
     ProyectosComponent,
     FooterComponent,
-    RedesPanelComponent,
-    BannerPanelComponent,
-    InfoPanelComponent,
-    EducPanelComponent,
-    ExpPanelComponent,
-    SkillsPanelComponent,
-    ProyecPanelComponent,
   ],
   imports: [
     BrowserModule,
