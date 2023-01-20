@@ -16,14 +16,6 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { FooterComponent } from './footer/footer.component';
-import { RedesPanelComponent } from './panel/redes-panel/redes-panel.component';
-import { BannerPanelComponent } from './panel/banner-panel/banner-panel.component';
-import { InfoPanelComponent } from './panel/info-panel/info-panel.component';
-import { EducPanelComponent } from './panel/educ-panel/educ-panel.component';
-import { ExpPanelComponent } from './panel/exp-panel/exp-panel.component';
-import { SkillsPanelComponent } from './panel/skills-panel/skills-panel.component';
-import { ProyecPanelComponent } from './panel/proyec-panel/proyec-panel.component';
-
 @NgModule({
   declarations: [
     AppComponent,
