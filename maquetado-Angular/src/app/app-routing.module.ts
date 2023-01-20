@@ -11,9 +11,6 @@ const routes: Routes = [
   {path: 'login', component:LoginComponent},
   {path: 'registro', component:RegistroComponent},
   {path: 'panel', component:PanelComponent},
-
-
-
   {path: '**', component:ErrorComponent},
 
 ];
