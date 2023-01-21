@@ -1,0 +1,28 @@
+.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+button {
+    border-radius: 2pc;
+    border: none;
+    background-color: #55bafd;
+    color: white;
+    font-size: smaller;
+}
+
+button:hover {
+    color: whitesmoke;
+}

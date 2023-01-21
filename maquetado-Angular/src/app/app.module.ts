@@ -10,13 +10,13 @@ import { BannerComponent } from './banner/banner.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import { PanelComponent } from './panel/panel.component';
-import { ErrorComponent } from './error/error.component';
 import { InfoComponent } from './info/info.component';
 import { EducacionComponent } from './educacion/educacion.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { FooterComponent } from './footer/footer.component';
+import { ErrorComponent } from './error/error.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,13 +26,13 @@ import { FooterComponent } from './footer/footer.component';
     LoginComponent,
     RegistroComponent,
     PanelComponent,
-    ErrorComponent,
     InfoComponent,
     EducacionComponent,
     ExperienciaComponent,
     SkillsComponent,
     ProyectosComponent,
     FooterComponent,
+    ErrorComponent,
   ],
   imports: [
     BrowserModule,
