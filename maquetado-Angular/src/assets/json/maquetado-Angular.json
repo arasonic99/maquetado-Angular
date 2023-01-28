@@ -1,87 +1,91 @@
 {
-    "nombre": "Arantza",
-    "apellido": "Cabrera",
-    "puesto": "Full Stack Dev. Jr.",
-
     "redes": [
     {
-        "id": 0, 
-        "icono": "fa-inkedin"
-    },
-    {
         "id": 1, 
-        "icono": "fa-github"
+        "icono": "fa-inkedin",
+        "url": "https://www.linkedin.com/in/aradevelops/"
     },
     {
         "id": 2, 
-        "icono": "fa-instagram"
+        "icono": "fa-github",
+        "url": "https://github.com/arasonic99"
+    },
+    {
+        "id": 3, 
+        "icono": "fa-instagram",
+        "url": "https://www.instagram.com/aradevelops/"
     }
 ],
 
     "info": {
-    "imagen": "../assets/PERFIL.png",
-    "descripcion": "Mi objetivo es aportar soluciones utilizando mis conocimientos. Actualmente sigo estudiando para mejorar mis habilidades."
+    "titulo": "ACERCA DE MÍ",
+    "nombre": "Arantza Cabrera",
+    "puesto": "Full Stack Dev. Jr.",
+    "imagen": "./assets/PERFIL.png",
+    "descripcionInicio": "Mi objetivo es aportar soluciones utilizando mis conocimientos.",
+    "descripcionFin": "Actualmente sigo estudiando para mejorar mis habilidades."
 },
 
     "estudios": [
         {
-            "id": 0,
+            "id": 1,
             "titulo": "Secundario",
-            "imagen": "../assets/EDU1.png",
-            "institucion": "Adultos 2000",
-            "fin": "2020"
+            "imagenUno": "../assets/EDU1.png",
+            "institucion": "Adultos 2000 (finalizado en 2020)."
         },
         {
-            "id": 0,
+            "id": 2,
             "titulo": "Curso",
-            "imagen":"../assets/EDU2.png",
-            "institucion": "Argentina Programa",
-            "fin": "2022"
+            "imagenDos":"../assets/EDU2.png",
+            "institucion": "Argentina Programa #SéProgramar (finalizado en 2022)."
         }
 ],
 
     "experiencia": {
+    "titulo": "EXPERIENCIA",
     "puesto": "Niñera Part-Time",
-    "inicio": "03/2022",
-    "fin": "Actualidad"
+    "periodo": "(03/2022 - 01/2022)"
 },
 
     "skills": [
     {
-        "id": 0,
+        "id": 1,
         "nombre": "HTML",
         "porcentaje": 50,
         "color": "light blue"
     },
     {
-        "id": 1,
+        "id": 2,
         "nombre": "CSS",
         "porcentaje": 50,
         "color": "light-blue"
     },
     {
-        "id": 2,
+        "id": 3,
         "nombre": "Javascript",
         "porcentaje": 30,
         "color": "light-blue"
     },
     {
-        "id": 3,
+        "id": 4,
         "nombre": "Inglés",
         "porcentaje": 70,
         "color": "light-blue"
     },
     {
-        "id": 4,
+        "id": 5,
         "nombre": "Diseño e ilustración",
         "porcentaje": 60,
         "color": "light-blue"
     }
 ],
 
-    "proyectos": {
-    "titulo": "Sonic's Calculator",
-    "imagen": "../assets/PROJECTPIC1.png",
-    "descripcion": "Proyecto sencillo. Creado con HTML, CSS y Javascript."
+    "proyecto": {
+    "titulo": "PROYECTOS",
+    "nombre": "Sonic's Calculator",
+    "imagen": "./assets/PROJECTPIC1.png",
+    "descripcionInicio": "Proyecto sencillo.",
+    "descripcionFin": "Creado con HTML, CSS y Javascript.",
+    "url": "https://arasonic99.github.io/"
 }
 }

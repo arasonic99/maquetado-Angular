@@ -2,12 +2,12 @@
     <div class="container text-align">
       <div class="row">
         <div class="col-3 mt-1">
-          <h5 class="mt-0 pt-2"><b>PROYECTOS</b></h5>
-          <img src="./../../assets/PROJECTPIC1.png" alt="Proyecto Calculadora" class="img-fluid" HSPACE="0" VSPACE="5">
+          <h5 class="mt-0 pt-2"><b>{{ proyecto.titulo }}</b></h5>
+          <img [src]="proyecto.imagen" alt="Proyecto Calculadora" class="img-fluid" HSPACE="0" VSPACE="5">
         </div>
         <div class="col-8">
-          <h6 class="mt-4 pt-4" style="text-align: justify;"> <a href="https://arasonic99.github.io/"><b>Sonic's Calculator</b></a></h6>
-          <h6 style="text-align: justify;">Proyecto sencillo. <br> Creado con HTML, CSS y Javascript.</h6>
+          <h6 class="mt-4 pt-4" style="text-align: justify;"> <a [href]="proyecto.url"><b>{{ proyecto.nombre }}</b></a></h6>
+          <h6 style="text-align: justify;">{{ proyecto.descripcionInicio }}<br> {{ proyecto.descripcionFin }}</h6>
         </div>
       </div>
     </div>

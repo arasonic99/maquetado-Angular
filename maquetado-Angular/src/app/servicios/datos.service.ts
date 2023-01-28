@@ -9,7 +9,7 @@ export class DatosService {
 
   constructor(private http:HttpClient) { }
 
-  getDatos(): Observable<any>{
+  getDatos():Observable<any>{
     return this.http.get('./assets/json/maquetado-Angular.json');
   }
 }

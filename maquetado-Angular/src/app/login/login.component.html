@@ -3,10 +3,10 @@
         <a class="navbar-brand" routerLink="">
             <img src="./../../assets/APLOGO.png" alt="Argentina Programa" width="15%">
         </a>
-        <ul class="list-group list-group-horizontal">
-            <li class="list-group-item"> <a href="https://www.linkedin.com/in/aradevelops/" target="_blank"> <i class="fa-brands fa-linkedin fa-xl"></i> </a> </li>
-            <li class="list-group-item"> <a href="https://github.com/arasonic99" target="_blank"> <i class="fa-brands fa-github fa-xl"></i> </a> </li>
-            <li class="list-group-item"> <a href="https://www.instagram.com/aradevelops/" target="_blank"> <i class="fa-brands fa-instagram fa-xl"></i> </a> </li>
+        <ul class="list-group list-group-horizontal" *ngFor="let red of redes">
+            <li class="list-group-item"> <a [href]="red.url" target="_blank"> <i class="fa-brands fa-linkedin fa-xl"></i> </a> </li>
+            <li class="list-group-item"> <a [href]="red.url" target="_blank"> <i class="fa-brands fa-github fa-xl"></i> </a> </li>
+            <li class="list-group-item"> <a [href]="red.url" target="_blank"> <i class="fa-brands fa-instagram fa-xl"></i> </a> </li>
             <!-- Botón que envia al login -->
             <li class="list-group-item">
             <a routerLink="/login"><i class="fa-solid fa-user fa-lg" type="button"></i></a>
