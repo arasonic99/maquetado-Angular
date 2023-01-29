@@ -8,7 +8,6 @@ import { DatosService } from '../servicios/datos.service';
 })
 
 export class InfoComponent implements OnInit {
-
   constructor(private datos: DatosService) { }
   info: any = [];
   ngOnInit(): void {

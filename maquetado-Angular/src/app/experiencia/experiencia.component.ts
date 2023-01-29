@@ -8,7 +8,6 @@ import { DatosService } from '../servicios/datos.service';
 })
 
 export class ExperienciaComponent implements OnInit {
-
   constructor(private datos: DatosService) { }
   experiencia: any = [];
   ngOnInit(): void {

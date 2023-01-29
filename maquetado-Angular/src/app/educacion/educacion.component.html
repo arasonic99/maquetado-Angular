@@ -1,23 +1,23 @@
-<section class="education mt-3" *ngFor="let estudio of estudios">
+<section class="education mt-3">
     <div class="container text-align">
       <div class="row">
         <div class="col-2 mt-1">
           <h5 class="mt-0 pt-1"><b>EDUCACIÓN</b></h5>
-          <img [src]="estudio.imagenUno" alt="Secundario" class="img-fluid" HSPACE="0" VSPACE="5">
+          <img [src]="estudioUno.imagen" alt="Secundario" class="img-fluid" HSPACE="0" VSPACE="5">
         </div>
         <div class="col-10">
-          <h6 class="mt-4 pt-4" style="text-align: justify;"><b>{{ estudio.titulo }}</b></h6>
-          <h6 style="text-align: justify;">{{ estudio.institucion }}</h6>
+          <h6 class="mt-4 pt-4" style="text-align: justify;"><b>{{ estudioUno.titulo }}</b></h6>
+          <h6 style="text-align: justify;">{{ estudioUno.institucion }}</h6>
         </div>
       </div>
       <div class="row">
-        <div class="col-2 mt-1">
-          <img [src]="estudio.imagenDos" alt="Argentina Programa" class="img-fluid" HSPACE="0" VSPACE="5">
-        </div>
-        <div class="col-10">
-          <h6><b>Curso</b></h6>
-          <h6 style="text-align: justify;">Argentina Programa #SéProgramar (finalizado en 2022).</h6>
-        </div>
+      <div class="col-2 mt-1">
+        <img [src]="estudioDos.imagen" alt="Argentina Programa" class="img-fluid" HSPACE="0" VSPACE="5">
+      </div>
+      <div class="col-10">
+        <h6><b>{{ estudioDos.titulo }}</b></h6>
+        <h6 style="text-align: justify;">{{ estudioDos.institucion }}</h6>
+      </div>
       </div>
     </div>
-  </section>
+</section>

@@ -1,21 +1,18 @@
 {
-    "redes": [
-    {
-        "id": 1, 
-        "icono": "fa-inkedin",
-        "url": "https://www.linkedin.com/in/aradevelops/"
-    },
-    {
-        "id": 2, 
-        "icono": "fa-github",
-        "url": "https://github.com/arasonic99"
-    },
-    {
-        "id": 3, 
-        "icono": "fa-instagram",
-        "url": "https://www.instagram.com/aradevelops/"
-    }
-],
+    "redUno": {
+    "icono": "fa-linkedin",
+    "url": "https://www.linkedin.com/in/aradevelops/"
+},
+
+    "redDos": {
+    "icono": "fa-github",
+    "url": "https://github.com/arasonic99"
+},
+
+    "redTres": {
+    "icono": "fa-instagram",
+    "url": "https://www.instagram.com/aradevelops/"
+},
 
     "info": {
     "titulo": "ACERCA DE MÍ",
@@ -26,20 +23,17 @@
     "descripcionFin": "Actualmente sigo estudiando para mejorar mis habilidades."
 },
 
-    "estudios": [
-        {
-            "id": 1,
-            "titulo": "Secundario",
-            "imagenUno": "../assets/EDU1.png",
-            "institucion": "Adultos 2000 (finalizado en 2020)."
-        },
-        {
-            "id": 2,
-            "titulo": "Curso",
-            "imagenDos":"../assets/EDU2.png",
-            "institucion": "Argentina Programa #SéProgramar (finalizado en 2022)."
-        }
-],
+    "estudioUno": {
+    "titulo": "Secundario",
+    "imagen": "./assets/EDU1.png",
+    "institucion": "Adultos 2000 (finalizado en 2020)."
+},
+
+    "estudioDos": {
+    "titulo": "Curso",
+    "imagen":"./assets/EDU2.png",
+    "institucion": "Argentina Programa #SéProgramar (finalizado en 2022)."
+},
 
     "experiencia": {
     "titulo": "EXPERIENCIA",
@@ -47,38 +41,35 @@
     "periodo": "(03/2022 - 01/2022)"
 },
 
-    "skills": [
-    {
-        "id": 1,
+    "skillUno": {
         "nombre": "HTML",
         "porcentaje": 50,
         "color": "light blue"
-    },
-    {
-        "id": 2,
+},
+
+    "skillDos": {
         "nombre": "CSS",
         "porcentaje": 50,
         "color": "light-blue"
-    },
-    {
-        "id": 3,
+},
+
+    "skillTres": {
         "nombre": "Javascript",
         "porcentaje": 30,
         "color": "light-blue"
-    },
-    {
-        "id": 4,
+},
+    
+    "skillCuatro": {
         "nombre": "Inglés",
         "porcentaje": 70,
         "color": "light-blue"
-    },
-    {
-        "id": 5,
+},
+
+    "skillCinco": {
         "nombre": "Diseño e ilustración",
         "porcentaje": 60,
         "color": "light-blue"
-    }
-],
+},
 
     "proyecto": {
     "titulo": "PROYECTOS",
