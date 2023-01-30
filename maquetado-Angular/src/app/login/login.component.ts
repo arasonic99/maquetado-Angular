@@ -12,7 +12,7 @@ form: FormGroup;
   constructor(private formBuilder: FormBuilder){
   this.form = this.formBuilder.group({
     email: ['', [Validators.required, Validators.email]],
-    password: ['', [Validators.required, Validators.minLength(8)]],
+    password: ['', [Validators.required, Validators.minLength(8), Validators.maxLength(12)]],
   });
 }
 
@@ -26,11 +26,11 @@ ngOnInit() {}
     return this.form.get("password");
   }
 
-  get MailValid(){
+  get MailInvalid(){
     return this.Mail?.touched && !this.Mail?.valid;
   }
 
-  get PasswordValid(){
+  get PasswordInvalid(){
     return this.Password?.touched && !this.Password?.valid;
   }
 
