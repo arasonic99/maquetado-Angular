@@ -1,6 +1,5 @@
 {
     "info": {
-    "titulo": "ACERCA DE MÍ",
     "nombre": "Arantza Cabrera",
     "puesto": "Full Stack Dev. Jr.",
     "imagen": "./assets/PERFIL.png",
@@ -21,7 +20,6 @@
 },
 
     "experiencia": {
-    "titulo": "EXPERIENCIA",
     "puesto": "Niñera Part-Time",
     "periodo": "(03/2022 - 01/2022)"
 },
@@ -57,7 +55,6 @@
 },
 
     "proyecto": {
-    "titulo": "PROYECTOS",
     "nombre": "Sonic's Calculator",
     "imagen": "./assets/PROJECTPIC1.png",
     "descripcionInicio": "Proyecto sencillo.",

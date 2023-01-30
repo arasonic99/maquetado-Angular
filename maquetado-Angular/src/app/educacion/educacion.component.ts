@@ -10,6 +10,7 @@ export class EducacionComponent implements OnInit {
   estudioUno: any;
   estudioDos: any;
   constructor(private datos: DatosService) { }
+  
   ngOnInit(): void {
     this.datos.getDatos().subscribe(data => {
       this.estudioUno = data.estudioUno;

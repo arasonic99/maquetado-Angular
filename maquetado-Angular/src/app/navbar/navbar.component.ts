@@ -12,6 +12,7 @@ export class NavbarComponent implements OnInit {
   redUno: any = [];
   redDos: any = [];
   redTres: any = [];
+  
   ngOnInit(): void {
     this.datos.getDatos().subscribe(data => {
       this.redUno = data.redUno;
