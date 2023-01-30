@@ -1,19 +1,4 @@
 {
-    "redUno": {
-    "icono": "fa-linkedin",
-    "url": "https://www.linkedin.com/in/aradevelops/"
-},
-
-    "redDos": {
-    "icono": "fa-github",
-    "url": "https://github.com/arasonic99"
-},
-
-    "redTres": {
-    "icono": "fa-instagram",
-    "url": "https://www.instagram.com/aradevelops/"
-},
-
     "info": {
     "titulo": "ACERCA DE MÍ",
     "nombre": "Arantza Cabrera",

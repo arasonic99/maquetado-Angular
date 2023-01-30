@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DatosService } from '../servicios/datos.service';
+import { FormBuilder, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -8,13 +8,41 @@ import { DatosService } from '../servicios/datos.service';
 })
 
 export class LoginComponent implements OnInit {
+form: FormGroup;
+  constructor(private formBuilder: FormBuilder){
+  this.form = this.formBuilder.group({
+    email: ['', [Validators.required, Validators.email]],
+    password: ['', [Validators.required, Validators.minLength(8)]],
+  });
+}
 
-  constructor(private datos: DatosService) { }
-  redes: any = [];
-  ngOnInit(): void {
-    this.datos.getDatos().subscribe(data => {
-      this.redes = data.redes;
-    })
+ngOnInit() {}
+
+  get Mail(){
+    return this.form.get("email");
   }
-  
+
+  get Password(){
+    return this.form.get("password");
+  }
+
+  get MailValid(){
+    return this.Mail?.touched && !this.Mail?.valid;
+  }
+
+  get PasswordValid(){
+    return this.Password?.touched && !this.Password?.valid;
+  }
+
+  onEnviar(event: Event){
+    event.preventDefault;
+
+    if (this.form.valid){
+      alert("Todo salió bien, ¡enviar formulario!")
+    }else{
+      this.form.markAllAsTouched();
+      alert("Todo salió mal, ¡no enviar formulario!")
+    }
+  }
+
 }
