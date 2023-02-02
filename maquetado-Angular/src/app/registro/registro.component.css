@@ -61,3 +61,11 @@ i.fa-solid.fa-user.fa-lg:hover{
 .formulario-login {
     margin-top: 23%;
 }
+
+.error {
+    color: red;
+}
+
+.border-danger {
+    color: red;
+}

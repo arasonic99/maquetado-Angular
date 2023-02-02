@@ -9,12 +9,19 @@ import { DatosService } from '../servicios/datos.service';
 
 export class InfoComponent implements OnInit {
   constructor(private datos: DatosService) { }
-  info: any = [];
+  nombre: string = '';
+  puesto: string = '';
+  imagen: string = '';
+  descripcionInicio: string = '';
+  descripcionFin: string = '';
   
   ngOnInit(): void {
     this.datos.getDatos().subscribe(data => {
-      this.info = data.info;
+      this.nombre = data.nombre;
+      this.puesto = data.puesto;
+      this.imagen = data.imagen;
+      this.descripcionInicio = data.descripcionInicio;
+      this.descripcionFin = data.descripcionFin;
     })
   }
-  
 }
