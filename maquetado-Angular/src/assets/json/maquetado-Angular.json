@@ -1,22 +1,17 @@
 {
-    "info": {
     "nombre": "Arantza Cabrera",
     "puesto": "Full Stack Dev. Jr.",
     "imagen": "./assets/PERFIL.png",
     "descripcionInicio": "Mi objetivo es aportar soluciones utilizando mis conocimientos.",
-    "descripcionFin": "Actualmente sigo estudiando para mejorar mis habilidades."
-},
+    "descripcionFin": "Actualmente sigo estudiando para mejorar mis habilidades.",
 
-    "estudioUno": {
-    "titulo": "Secundario",
-    "imagen": "./assets/EDU1.png",
-    "institucion": "Adultos 2000 (finalizado en 2020)."
-},
-
-    "estudioDos": {
-    "titulo": "Curso",
-    "imagen":"./assets/EDU2.png",
-    "institucion": "Argentina Programa #SéProgramar (finalizado en 2022)."
+    "educacion": {                                                                              
+    "tituloUno": "Secundario",
+    "imagenUno": "./assets/EDU1.png",
+    "institucionUno": "Adultos 2000 (finalizado en 2020).",
+    "tituloDos": "Curso",
+    "imagenDos":"./assets/EDU2.png",
+    "institucionDos": "Argentina Programa #SéProgramar (finalizado en 2022)."
 },
 
     "experiencia": {
