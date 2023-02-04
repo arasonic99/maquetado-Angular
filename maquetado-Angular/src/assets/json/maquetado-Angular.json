@@ -1,0 +1,49 @@
+{
+    "nombre": "Arantza Cabrera",
+    "puesto": "Full Stack Dev. Jr.",
+    "descripcion": "Mi objetivo es aportar soluciones utilizando mis conocimientos.",
+    "imagen": "../../assets/PERFIL.png",
+
+    "estudios": [
+        {
+            "titulo": "SECUNDARIO",
+            "descripcion": "Adultos 2000 (finalizado en 2020).",
+            "imagen": "../../assets/EDU1.png"
+        },
+        {
+            "titulo": "CURSO",
+            "descripcion": "Argentina Programa #SéProgramar (finalizado en 2022).",
+            "imagen": "../../assets/EDU2.png"
+        }
+    ],
+
+    "experiencia": "Niñera Part-Time (03/2022 - 01/2023)",
+
+    "skills": [
+        {
+            "nombre": "HTML",
+            "progreso": 50
+        },
+        {
+            "nombre": "CSS",
+            "progreso": 50
+        },
+        {
+            "nombre": "Javascript",
+            "progreso": 30
+        },
+        {
+            "nombre": "Inglés",
+            "progreso": 70
+        },
+        {
+            "nombre": "Diseño e ilustración",
+            "progreso": 60
+        }
+    ],
+
+    "proyecto": "Sonic's Calculator",
+    "url": "https://arasonic99.github.io/",
+    "about": "Creado con HTML, CSS y Javascript.",
+    "pic": "../../assets/PROJECTPIC1.png"
+}

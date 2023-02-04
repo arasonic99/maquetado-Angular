@@ -1,12 +1,12 @@
 <section class="education mt-3">
     <div class="container text-align">
-      <div class="row">
+      <div class="row" *ngFor="let estudiositos of estudios">
         <div class="col-2 mt-1">
           <h5 class="mt-0 pt-1"><b>EDUCACIÓN</b></h5>
           <img src="../../assets/EDU1.png" alt="Secundario" class="img-fluid" HSPACE="0" VSPACE="5">
         </div>
         <div class="col-10">
-          <h6 class="mt-4 pt-4" style="text-align: justify;"><b>SECUNDARIO</b></h6>
+          <h6 class="mt-4 pt-4" style="text-align: justify;"><b>{{estudiositos.titulo}}</b></h6>
           <h6 style="text-align: justify;">Adultos 2000 (finalizado en 2020).</h6>
         </div>
       </div>
