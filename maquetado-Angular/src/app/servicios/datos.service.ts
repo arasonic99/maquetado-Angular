@@ -6,8 +6,8 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class DatosService {
-  constructor(private http:HttpClient) { }
+  constructor(private http:HttpClient) {}
   getDatos():Observable<any>{
-    return this.http.get('./assets/json/maquetado-Angular.json');
+    return this.http.get('../assets/json/maquetado-Angular.json');
   }
 }
