@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { DatosService } from '../servicios/datos.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,18 +6,7 @@ import { DatosService } from '../servicios/datos.service';
   styleUrls: ['./navbar.component.css']
 })
 
-export class NavbarComponent implements OnInit {
-  constructor(private datos: DatosService) { }
-  redUno: any = [];
-  redDos: any = [];
-  redTres: any = [];
-  
-  ngOnInit(): void {
-    this.datos.getDatos().subscribe(data => {
-      this.redUno = data.redUno;
-      this.redDos = data.redDos;
-      this.redTres = data.redTres;
-    })
-  }
-  
+export class NavbarComponent {
+  constructor() { }
+
 }
