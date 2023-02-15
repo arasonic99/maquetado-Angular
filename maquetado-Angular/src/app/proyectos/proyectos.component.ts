@@ -8,13 +8,20 @@ import { DatosService } from '../servicios/datos.service';
 })
 
 export class ProyectosComponent implements OnInit {
+  "proyecto": string = '';
+  "url": string = '';
+  "about": string = '';
+  "pic": string = '';
   constructor(private datos: DatosService) { }
-  proyecto: any = [];
-  
+
   ngOnInit(): void {
     this.datos.getDatos().subscribe(data => {
       this.proyecto = data.proyecto;
+      this.url = data.url;
+      this.about = data.about;
+      this.pic = data.pic;
+
     })
   }
-  
 }
+

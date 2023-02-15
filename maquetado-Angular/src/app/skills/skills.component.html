@@ -1,33 +1,14 @@
 <section class="skills mt-3">
     <div class="container text-align">
+      <h5 class="mt-0 pt-1"><b>HARD & SOFT SKILLS</b></h5>
       <div class="row">
-        <div class="col-10">
-            <h5 class="mt-0 pt-1"><b>HARD & SOFT SKILLS</b></h5>
+        <div class="col-10" *ngFor="let skills of skillsitos">
             <p></p>
-            <h6>HTML</h6>
+            <h6>{{skills.nombre}}</h6>
             <p></p><div class="progress">
-            <div class="progress-bar" role="progressbar" aria-label="HTML" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            <div class="progress-bar" role="progressbar" aria-label="HTML" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">{{skills.progreso}}</div>
             </div>
             <p></p>
-            <h6>CSS</h6>
-            <p></p><div class="progress">
-            <div class="progress-bar" role="progressbar" aria-label="CSS" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-            </div>
-            <p></p>
-            <h6>Javascript</h6>
-            <p></p><div class="progress">
-            <div class="progress-bar" role="progressbar" aria-label="Javascript" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
-            </div>
-            <p></p>
-            <h6>Inglés</h6>
-            <p></p><div class="progress">
-            <div class="progress-bar" role="progressbar" aria-label="Inglés" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
-            </div>
-            <p></p>
-            <h6>Diseño e ilustración</h6>
-            <p></p><div class="progress">
-            <div class="progress-bar" role="progressbar" aria-label="Diseño e ilustración" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-            </div>
         </div>
       </div>
     </div>

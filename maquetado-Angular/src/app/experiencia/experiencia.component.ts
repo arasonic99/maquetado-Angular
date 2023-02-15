@@ -8,12 +8,14 @@ import { DatosService } from '../servicios/datos.service';
 })
 
 export class ExperienciaComponent implements OnInit {
+  experiencia: string = '';
+  periodo: string = '';
   constructor(private datos: DatosService) { }
-  experiencia: any = [];
 
   ngOnInit(): void {
     this.datos.getDatos().subscribe(data => {
       this.experiencia = data.experiencia;
+      this.periodo = data.periodo;
     })
   }
   

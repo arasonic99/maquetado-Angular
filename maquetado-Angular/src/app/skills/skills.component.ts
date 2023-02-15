@@ -8,20 +8,12 @@ import { DatosService } from '../servicios/datos.service';
 })
 
 export class SkillsComponent implements OnInit {
-  constructor(private datos: DatosService) { }
-  skillUno: any = [];
-  skillDos: any = [];
-  skillTres: any = [];
-  skillCuatro: any = [];
-  skillCinco: any = [];
+  skillsitos: any = [];
 
+  constructor(private datos: DatosService) { }
   ngOnInit(): void {
     this.datos.getDatos().subscribe(data => {
-      this.skillUno = data.skillUno;
-      this.skillDos = data.skillDos;
-      this.skillTres = data.skillTres;
-      this.skillCuatro = data.skillCuatro;
-      this.skillCinco = data.skillCinco;
+      this.skillsitos = data.skills;
     })
   }
   

@@ -16,11 +16,10 @@ export class InfoComponent implements OnInit {
   
   ngOnInit(): void {
     this.datos.getDatos().subscribe(data => {
-    /*this.nombre = data.nombre;
+      this.nombre = data.nombre;
       this.puesto = data.puesto;
       this.descripcion = data.descripcion;
-      this.imagen = data.imagen;*/
-      console.log(data)
+      this.imagen = data.imagen;
 
     })
   }

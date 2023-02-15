@@ -7,17 +7,20 @@
     "estudios": [
         {
             "titulo": "SECUNDARIO",
-            "descripcion": "Adultos 2000 (finalizado en 2020).",
+            "institucion": "Adultos 2000",
+            "descripcion": "finalizado en 2020.",
             "imagen": "../../assets/EDU1.png"
         },
         {
             "titulo": "CURSO",
-            "descripcion": "Argentina Programa #SéProgramar (finalizado en 2022).",
+            "institucion": "Argentina Programa #SéProgramar",
+            "descripcion": "finalizado en 2022.",
             "imagen": "../../assets/EDU2.png"
         }
     ],
 
-    "experiencia": "Niñera Part-Time (03/2022 - 01/2023)",
+    "experiencia": "Niñera Part-Time",
+    "periodo": "(03/2022 - 01/2023)",
 
     "skills": [
         {
